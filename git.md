@@ -1,7 +1,7 @@
 Git notes
 =========
 
-#Create a Github repo using CLI 
+##Create a Github repo using CLI 
 
 >Replace caps with custom values
 
