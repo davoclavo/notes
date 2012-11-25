@@ -30,3 +30,7 @@ Add to `config/environments/development.rb`:
 
     # Do not serve compiled assets
     config.serve_static_assets = false
+
+## Clear Rails cache
+
+    bundle exec rake tmp:cache:clear

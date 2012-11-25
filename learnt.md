@@ -1,13 +1,18 @@
 Learning Journal
 ================
 
+23/11/2012
+----------
+
+ * Comments in .erb: `<%# %>`
 
 22/11/2012
 ----------
 
- * jQuery: `$().up('')`
+ * jQuery: `$().parents('selector')` to find stuff above.
  * CSS: `clear` [Instructor Matters](http://html5.instructormatters.com/)
  * Rails: `accepts_nested_attributes_for` [Rails Casts #196/#197](http://railscasts.com/episodes/196-nested-model-form-part-1)
+
 
 21/11/2012
 ----------
@@ -28,7 +33,7 @@ Learning Journal
 16/11/2012
 ----------
 
- * html_escape a user input and then gsub, POOPIEPANTS!. [Here to monkeypatch](https://github.com/rails/rails/issues/1555#issuecomment-2097750)
+ * Rails: If you try to `html_escape` a user input and then `gsub`, POOPIEPANTS!. [Here to monkeypatch](https://github.com/rails/rails/issues/1555#issuecomment-2097750)
  * Found: [HAXLR8R](http://www.haxlr8r.com/) - Hardware based accelerator
     - Found: [Kindara Fertility](http://kindara.com/blog/). Very clever app to know when to get pregnant and secretly *avoid* pregnancy
 

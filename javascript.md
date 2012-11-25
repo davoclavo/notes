@@ -1,7 +1,7 @@
 Javascript Notes
 ================
 
-#Document ready
+# Document ready
 
 Good
 
@@ -19,7 +19,7 @@ Bad
         ...
     });
 
-#jQuery variables
+# jQuery variables
 
 Good
 
