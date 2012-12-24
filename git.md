@@ -10,3 +10,8 @@ Replace caps with custom values
     git push origin master
 
 > [Source](http://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-ssh)
+
+
+##Set global proxy
+
+    git config --global https.proxy https://user:password@address:port
