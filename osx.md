@@ -47,6 +47,23 @@ or
     defaults write com.apple.dashboard mcx-disabled -boolean NO
     killall Dock
 
+###Downloads log
+
+View
+
+    sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent'
+
+Delete
+
+    sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'
+
+Disable
+
+    defaults write com.apple.LaunchServices LSQuarantine -bool NO
+
+[Source](http://www.macgasm.net/2013/01/18/good-morning-your-mac-keeps-a-log-of-all-your-downloads/)
+
+
 #Messages.app
 
 ###Change shortcut in Messages app for cmd+backspace
@@ -86,20 +103,3 @@ or
     defaults write com.apple.Terminal TotalTerminalCloseWindowsOnStart -bool YES
 
 [Source](https://github.com/binaryage/totalterminal/issues/40#issuecomment-4258450)
-
-
-###Downloads log
-
-View
-
-    sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'select LSQuarantineDataURLString from LSQuarantineEvent'
-
-Delete
-
-    sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'
-
-Disable
-
-    defaults write com.apple.LaunchServices LSQuarantine -bool NO
-
-[Source](http://www.macgasm.net/2013/01/18/good-morning-your-mac-keeps-a-log-of-all-your-downloads/)
