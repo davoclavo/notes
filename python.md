@@ -4,7 +4,7 @@ Python notes
 ## Simple HTTP server
 
     cd <folder>
-    python -m SimpleHTTPServer 9914
+    python -m SimpleHTTPServer [portnumber]
 
 
 ## Virtualenvwrapper
