@@ -103,3 +103,15 @@ Disable
     defaults write com.apple.Terminal TotalTerminalCloseWindowsOnStart -bool YES
 
 [Source](https://github.com/binaryage/totalterminal/issues/40#issuecomment-4258450)
+
+#iTerm
+
+###On load, don't open a new window:
+
+[Source](http://rottmann.net/2013/03/launch-iterm-2-on-startup-without-opening-a-terminal-window/)
+
+###Show iTerm hotkey window in Fullscreen apps
+
+    (Same as Total terminal)
+
+
