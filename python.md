@@ -7,6 +7,7 @@ Python notes
     python -m SimpleHTTPServer [port]
 
 
+
 ## Virtualenvwrapper
 
     workon envname

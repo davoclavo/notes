@@ -21,3 +21,11 @@ then:
 ### Clean cache
 
     /Library/Caches/Homebrew/
+
+
+    man ascii
+
+    sudo !! - Run the last command as root
+    python -m SimpleHTTPServer [port]
+
+    <space>command - Execute a command without saving it in the history

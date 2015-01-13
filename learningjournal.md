@@ -1,6 +1,34 @@
 Learning Journal
 ================
 
+13/02/2013
+----------
+
+ * jQuery: `.end()`
+ * jQuery: `.queue()`
+
+
+12/02/2013
+----------
+
+ * [Leidenfrost Effect](http://en.wikipedia.org/wiki/Leidenfrost_effect)
+ * Javascript: [Event after all images have loaded](http://www.javascriptkit.com/javatutors/preloadimagesplus.shtml)
+
+
+11/02/2013
+----------
+
+ * We are the remains of stars, as all the elements that we are made of were created then.
+ * [Wilson score confidence interval for a Bernoulli parameter](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval) - Ranking Algorithm - from [*this article*](http://www.evanmiller.org/how-not-to-sort-by-average-rating.html)
+
+*After a long hiatus I hope to write as often as possible*
+
+------------------------------------------------------------------------------
+
+18/12/2012
+----------
+ * [Jade](https://github.com/visionmedia/jade) - Robust, elegant, feature rich template engine for nodejs
+ * [transparency.js](https://github.com/leonidas/transparency) - A semantic templating engine
 
 22/11/2012
 ----------
