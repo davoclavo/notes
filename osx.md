@@ -85,33 +85,29 @@ Disable
 
 [Source](https://discussions.apple.com/docs/DOC-4441)
 
-#TotalTerminal.app
+#iTerm.app
 
-###Show totalterminal while using fullscreen apps
+###Show iTerm while using fullscreen apps
 
-    sudo sublime /Applications/Utilities/Terminal.app/Contents/Info.plist
+    vim /Applications/iTerm.app/Contents/Info.plist
 
->write this:
+>write this after the first `<dict>`:
 
     <key>LSUIElement</key>
     <string>1</string>
 
+>resign app:
+
+    sudo codesign -f -s - /Applications/iTerm.app
+
 [Source](http://apple.stackexchange.com/questions/40575/totalterminal-doesnt-work-with-full-screen-apps)
 
-###On load it opens a new window, to automatically close it
-
-    defaults write com.apple.Terminal TotalTerminalCloseWindowsOnStart -bool YES
-
-[Source](https://github.com/binaryage/totalterminal/issues/40#issuecomment-4258450)
-
-#iTerm
+[New Source](http://apple.stackexchange.com/a/158517)
 
 ###On load, don't open a new window:
 
 [Source](http://rottmann.net/2013/03/launch-iterm-2-on-startup-without-opening-a-terminal-window/)
 
-###Show iTerm hotkey window in Fullscreen apps
 
-    (Same as Total terminal)
 
 
